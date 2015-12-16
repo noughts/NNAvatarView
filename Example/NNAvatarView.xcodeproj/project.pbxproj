@@ -132,13 +132,13 @@
 		6003F593195388D20070C39A /* Example for NNAvatarView */ = {
 			isa = PBXGroup;
 			children = (
+				4D35D1C31C211E1200C339D4 /* image.png */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F59C195388D20070C39A /* NNAppDelegate.h */,
 				6003F59D195388D20070C39A /* NNAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* NNViewController.h */,
-				4D35D1C31C211E1200C339D4 /* image.png */,
 				6003F5A6195388D20070C39A /* NNViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for NNAvatarView";

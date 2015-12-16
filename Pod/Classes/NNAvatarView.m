@@ -102,8 +102,7 @@ CGRect AMPDrawingRectForContentMode(CGSize imageSize, CGRect bounds, UIViewConte
 
 #pragma mark - Init
 
-- (id)initWithFrame:(CGRect)frame
-{
+- (id)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
         [self baseInit];
@@ -122,7 +121,7 @@ CGRect AMPDrawingRectForContentMode(CGSize imageSize, CGRect bounds, UIViewConte
 - (void)baseInit {
     [self setBackgroundColor:[UIColor clearColor]];
     _innerBackgroundColor = [UIColor darkGrayColor];
-    _borderWith = 0.5;
+    _borderWidth = 0.5;
     _borderColor = [[UIColor alloc] initWithWhite:1 alpha:0.33];
 	[self setNeedsDisplay];
 }
@@ -134,8 +133,8 @@ CGRect AMPDrawingRectForContentMode(CGSize imageSize, CGRect bounds, UIViewConte
     [self setNeedsDisplay];
 }
 
-- (void)setBorderWith:(CGFloat)borderWith {
-    _borderWith = borderWith;
+- (void)setBorderWidth:(CGFloat)borderWidth {
+    _borderWidth = borderWidth;
     [self setNeedsDisplay];
 }
 
@@ -145,7 +144,7 @@ CGRect AMPDrawingRectForContentMode(CGSize imageSize, CGRect bounds, UIViewConte
 }
 
 - (void)setShadowRadius:(CGFloat)shadowRadius {
-//    _shadowRadius = shadowRadius;
+    _shadowRadius = shadowRadius;
     self.layer.shadowRadius = _shadowRadius;
 }
 
@@ -170,8 +169,6 @@ CGRect AMPDrawingRectForContentMode(CGSize imageSize, CGRect bounds, UIViewConte
     CGPathRef circle = CGPathCreateWithEllipseInRect(bounds, NULL);
     CGPathRef littleCircle = CGPathCreateWithEllipseInRect(CGRectInset(bounds, 0, 0), NULL);
 
-
-
     // Draw the inner background color
     CGContextSaveGState(ctx); {
         
@@ -190,12 +187,12 @@ CGRect AMPDrawingRectForContentMode(CGSize imageSize, CGRect bounds, UIViewConte
     } CGContextRestoreGState(ctx);
 	
 	// Draw the border
-	CGRect innerRect = CGRectInset(self.bounds, _borderWith/2.0, _borderWith/2.0);
+	CGRect innerRect = CGRectInset(self.bounds, _borderWidth/2.0, _borderWidth/2.0);
 	CGContextSaveGState(ctx); {
 		CGContextBeginPath(ctx);
 		CGContextAddPath(ctx, circle);
 		CGContextSetStrokeColorWithColor(ctx, _borderColor.CGColor);
-		CGContextSetLineWidth(ctx, _borderWith);
+		CGContextSetLineWidth(ctx, _borderWidth);
 		CGContextStrokeEllipseInRect(ctx, innerRect);
 	} CGContextRestoreGState(ctx);
 	

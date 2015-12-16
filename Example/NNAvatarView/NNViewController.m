@@ -21,6 +21,7 @@
 	
 	UIImage* img = [UIImage imageNamed:@"image"];
 	_avatar1.image = img;
+	_avatar1.borderWidth = 4;
 }
 
 

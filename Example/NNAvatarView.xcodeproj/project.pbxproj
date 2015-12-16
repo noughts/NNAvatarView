@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0816C94BCC26D3EA36F5132E /* libPods-NNAvatarView_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF87156DF4DEE68EA38449D /* libPods-NNAvatarView_Tests.a */; };
+		4D35D1C41C211E1200C339D4 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D35D1C31C211E1200C339D4 /* image.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +23,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E70D3A920B4A9A78782F615C /* Pods_NNAvatarView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B026EB96976494F46D1228 /* Pods_NNAvatarView_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		ED172522107B9C16B2A4B924 /* Pods_NNAvatarView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7025A4439F42F73083C7BD2 /* Pods_NNAvatarView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C63B342CD4795D60229905BF /* libPods-NNAvatarView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3888FFA8421B7AF6D87314C1 /* libPods-NNAvatarView_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,10 @@
 
 /* Begin PBXFileReference section */
 		1B8513974E48F0CF8CD19E1F /* Pods-NNAvatarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNAvatarView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNAvatarView_Example/Pods-NNAvatarView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3888FFA8421B7AF6D87314C1 /* libPods-NNAvatarView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNAvatarView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC2500F328A6BC49FAED627 /* NNAvatarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NNAvatarView.podspec; path = ../NNAvatarView.podspec; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* NNAvatarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = NNAvatarView.app; path = NNAvatarView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D35D1C31C211E1200C339D4 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* NNAvatarView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNAvatarView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -51,7 +54,7 @@
 		6003F5A5195388D20070C39A /* NNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* NNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = NNAvatarView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* NNAvatarView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNAvatarView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -60,10 +63,9 @@
 		764946FB01DA9A2477387A2B /* Pods-NNAvatarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNAvatarView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNAvatarView_Tests/Pods-NNAvatarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		83B756C366BE744893F94E28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		91B026EB96976494F46D1228 /* Pods_NNAvatarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNAvatarView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3B7D81EDDA548F3632AF16 /* Pods-NNAvatarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNAvatarView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNAvatarView_Example/Pods-NNAvatarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EA7890C6BD50BFBBE4E0E332 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F7025A4439F42F73083C7BD2 /* Pods_NNAvatarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNAvatarView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF87156DF4DEE68EA38449D /* libPods-NNAvatarView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNAvatarView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF881C5877E8D37D19A25F23 /* Pods-NNAvatarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNAvatarView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNAvatarView_Tests/Pods-NNAvatarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				ED172522107B9C16B2A4B924 /* Pods_NNAvatarView_Example.framework in Frameworks */,
+				C63B342CD4795D60229905BF /* libPods-NNAvatarView_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E70D3A920B4A9A78782F615C /* Pods_NNAvatarView_Tests.framework in Frameworks */,
+				0816C94BCC26D3EA36F5132E /* libPods-NNAvatarView_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,8 +110,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* NNAvatarView.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* NNAvatarView_Example.app */,
+				6003F5AE195388D20070C39A /* NNAvatarView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				F7025A4439F42F73083C7BD2 /* Pods_NNAvatarView_Example.framework */,
-				91B026EB96976494F46D1228 /* Pods_NNAvatarView_Tests.framework */,
+				3888FFA8421B7AF6D87314C1 /* libPods-NNAvatarView_Example.a */,
+				FAF87156DF4DEE68EA38449D /* libPods-NNAvatarView_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,6 +136,7 @@
 				6003F59D195388D20070C39A /* NNAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* NNViewController.h */,
+				4D35D1C31C211E1200C339D4 /* image.png */,
 				6003F5A6195388D20070C39A /* NNViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -204,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				472281FD8552FB7CA1F69B58 /* Embed Pods Frameworks */,
 				65BD80D57E1CE96EADD612AA /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -213,7 +215,7 @@
 			);
 			name = NNAvatarView_Example;
 			productName = NNAvatarView;
-			productReference = 6003F58A195388D20070C39A /* NNAvatarView.app */;
+			productReference = 6003F58A195388D20070C39A /* NNAvatarView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* NNAvatarView_Tests */ = {
@@ -224,7 +226,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				B79A4A3DE0F44A4C8C542657 /* Embed Pods Frameworks */,
 				735A04D227BDE2728DF43FEA /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -234,7 +235,7 @@
 			);
 			name = NNAvatarView_Tests;
 			productName = NNAvatarViewTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* NNAvatarView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -276,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D35D1C41C211E1200C339D4 /* image.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -308,21 +310,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		472281FD8552FB7CA1F69B58 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNAvatarView_Example/Pods-NNAvatarView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		65BD80D57E1CE96EADD612AA /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,21 +338,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNAvatarView_Tests/Pods-NNAvatarView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B79A4A3DE0F44A4C8C542657 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNAvatarView_Tests/Pods-NNAvatarView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C4D69890476794715B667F14 /* Check Pods Manifest.lock */ = {

@@ -1,0 +1,14 @@
+PODS:
+  - NNAvatarView (0.1.0)
+
+DEPENDENCIES:
+  - NNAvatarView (from `../`)
+
+EXTERNAL SOURCES:
+  NNAvatarView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NNAvatarView: a9b19a91fbe32449011e47771266c0ed6659d1e8
+
+COCOAPODS: 0.38.2

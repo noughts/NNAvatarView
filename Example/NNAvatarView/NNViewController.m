@@ -7,23 +7,21 @@
 //
 
 #import "NNViewController.h"
+#import <NNAvatarView.h>
 
-@interface NNViewController ()
+@implementation NNViewController{
+	__weak IBOutlet NNAvatarView* _avatar1;
+	__weak IBOutlet NNAvatarView* _avatar2;
+	__weak IBOutlet NNAvatarView* _avatar3;
+}
 
-@end
-
-@implementation NNViewController
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	UIImage* img = [UIImage imageNamed:@"image"];
+	_avatar1.image = img;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
